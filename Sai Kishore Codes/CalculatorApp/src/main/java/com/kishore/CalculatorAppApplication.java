@@ -8,6 +8,7 @@ import org.springframework.context.ConfigurableApplicationContext;
 public class CalculatorAppApplication {
 
 	public static void main(String[] args) {
+		//This context can access beans that are created by default in the spring application
 
 //		ConfigurableApplicationContext con=
 				SpringApplication.run(CalculatorAppApplication.class, args);
